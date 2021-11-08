@@ -1,0 +1,111 @@
+body {
+    background-color: pink 
+  }
+  {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ff-sans: ; 'Source Sans Pro', sans-serif;
+    --ff-sans: ; "Source Code Pro', monospace;
+    
+    
+     --fw-reg:300;
+     --fw-bold:900; 
+
+
+    
+}
+@media (min-width:800px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+     }
+
+ 
+}
+
+/*general styles */
+.topnav a{
+    color: blueviolet;
+    margin-right: 110px;
+    float: right;
+    padding:0px -40px
+    font-size:18px;
+    font-family:"Sans-serif";
+    width:100%
+
+}
+
+h1{
+    margin-top:40px;
+    font-family:sans-serif;
+    text-align: center;
+    letter-spacing: 10px;
+    padding: 12px;{
+        <h1 style="color:blue;">A Blue Heading</h1>
+    }
+
+
+  }
+}
+.body {
+    margin: 0;
+    font-family: var(--ff-sans-serif);
+    font-size: var(--fs-body);
+    line-height: 2.0;
+}
+.header{
+    height:230px; padding: 52px 0 0 57px;
+    background:border-box 
+}
+.img{
+    display:block;
+    max-width:100%;
+    
+}
+
+strong { font-size: large;}
+
+
+.footer {
+    background-color: burlywood
+   
+
+/* Typography */
+
+h1,
+h2,
+h3 {
+    line-height: 2.1;
+    margin: 0;
+}
+
+h1{ font-size: var(--fs-h1) }
+h2{ font-size: var(--fs-h2 }
+h3{ font-size: var(--fs-h3) }
+
+.section__title {
+    margin -bottom: .35em;
+
+}
+
+.section__title--intro {
+    font-weight: var(--fw-reg);
+}
+
+.section--subtitle {
+    margin:0;
+    font-size: var(--fs-h3);
+}
+
+.section__subtitle--intro,
+.section__subtitle--about {
+    background: var(--clr-accent);
+    font-family: var(--ff-secondary);
+}
